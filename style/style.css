@@ -1,0 +1,198 @@
+/* * {
+  border: solid red 1px;
+} */
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: black;
+  margin: 0px;
+}
+
+.header {
+  display: flex;
+  background-color: #1F2937;
+  padding: 20px 200px 20px 200px;
+  margin: 0px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #F9FAF8;
+}
+
+.header-links {
+  font-size: 18px;
+  gap: 20px;
+}
+/* BOX 1 */
+.box-one {
+  display: flex;
+  padding: 100px 200px 100px 200px;
+  background-color: #1F2937;
+  color: white;
+  gap: 40px;
+  
+}
+
+.box-one-left {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 10px;
+}
+
+.one-title {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.one-text {
+  color: lightgray;
+  font-size: 18px;
+}
+
+.one-button {
+  color: white;
+  background-color: #3882F6;
+  padding: 10px 40px;
+  text-decoration: none;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+.one-image {
+  width: 900px;
+  background-color: gray;
+}
+
+/* BOX 2 */
+.box-two {
+  display: flex;
+  flex-direction: column;
+}
+
+.two-top {
+  display: flex;
+  color: #1F2937;
+  font-size: 36px;
+  font-weight: 700;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+.two-bottom {
+  display: flex;
+  padding: 20px 200px 100px 200px;
+  justify-content: center;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.two-card {
+  display: flex;
+  flex-direction: column;
+  max-width: 150px;
+  gap: 10px;
+  color: gray;
+  font-size: 18px;
+}
+
+.two-image {
+  width: 150px;
+  height: 150px;
+  background-color: gray;
+  border: solid royalblue 4px;
+  border-radius: 20px;
+}
+
+/* BOX THREE */
+.box-three {
+  display: flex;
+  flex-direction: column;
+  background-color: #E5E7EB;
+  padding: 100px 350px 100px 350px;
+  color: #1F2937;
+  gap: 10px;
+}
+
+.three-text {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 200;
+}
+
+.three-subtext {
+  text-align: right;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+/* BOX FOUR */
+
+.box-four {
+  display: flex;
+  padding: 50px 125px;
+  background-color: #3882F6;
+  margin: 100px 200px 100px 200px;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+
+.four-text {
+  gap: 10px;
+}
+
+.four-title {
+  color: #F9FAF8;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.four-subtext {
+  color: lightgray;
+  font-size: 16px;
+}
+
+.four-signup {
+  background-color: #3882F6;
+  color: white;
+  font-size: 17px;
+  height: 38px;
+  width: 120px;
+  border: solid white 2px;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+/* FOOTER */
+.footer {
+  display: flex;
+  background-color: #1F2937;
+  color: lightgray;
+  font-size: 18px;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+/* OTHER */
+a:link, 
+a:visited {
+  text-decoration: none;
+  color: lightgray;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
